@@ -1,0 +1,17 @@
+@import '@fontsource-variable/montserrat';
+@import '@fontsource-variable/inter';
+@tailwind base;
+@layer base {
+  html {
+    @apply text-[#111111];
+    @apply bg-[#F5F0EC];
+    @apply scroll-smooth;
+  }
+}
+@tailwind components;
+@tailwind utilities;
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
